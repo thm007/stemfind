@@ -1,0 +1,87 @@
+/*
+    Document   : style.css
+    Created on : 2015-10-05 11:14 PM
+    Author     : thm007
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+root {
+    display: block;
+}
+.hello {
+    text-align: center;
+}
+.input-group{
+    text-align: center;
+    
+}
+.right{
+    position:absolute;
+    right: 0;
+        padding-right: 200px;
+    }
+.left{
+    position:absolute;
+    left: 0;
+        padding-left: 200px;
+    }
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: 230px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: blue;
+    background: rebeccapurple;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-brand {
+    color: whitesmoke;
+}
+
+.thumbnail a>img, .thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+    height: 300;
+}
+
+.form-inline .input-group>.form-control {
+    width: 978px;
+}
+.form-inline {
+    text-align: center;
+    margin-bottom: 100px;
+  
+}
+.thm1{
+    padding-bottom: 150px;
+}
+
+
+#thm3 {
+    width: 100%!important;
+    height: 350px!important;
+    padding-left: 50;
+}
+
+textarea {
+    overflow: auto;
+    margin-left: 100;
+    margin-bottom:150;
+}
+#thm6{
+    margin-left:100px!important;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
